@@ -1,0 +1,13 @@
+body {
+    background-image: url("http://cdn.shopify.com/s/files/1/2658/1334/products/YY00604_grande.jpg?v=1513760185");
+    background-position: center center ; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+#siteName{
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    -webkit-text-fill-color: Black;
+  }
+  
