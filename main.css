@@ -1,5 +1,5 @@
 body {
-    background-image: url("http://cdn.shopify.com/s/files/1/2658/1334/products/YY00604_grande.jpg?v=1513760185");
+    background-image: url(https://image.shutterstock.com/image-photo/bright-colors-dawn-on-beach-260nw-1288885015.jpg);
     background-position: center center ; 
     background-size: cover;
     background-attachment: fixed;
@@ -10,4 +10,8 @@ body {
     font-style: italic;
     -webkit-text-fill-color: Black;
   }
-  
+
+  img {
+    border-radius: 50%;
+    align-content: left;
+  }

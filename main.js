@@ -7,17 +7,8 @@ const projects = [
     available: true,
     url: "https://github.com/Lwamtekie/product-cards",
     githubUrl: "https://github.com/Lwamtekie/product-cards",
-  },
-const projects = [
-{
-    title: "Product Cards", 
-    screenshot: "https://github.com/Lwamtekie/product-cards", 
-    description: "Product cards using html, css, and flexbox for positioning", 
-    technologiesUsed: "HTML, CSS, Version Control with Github",
-    available: true,
-    url: "https://github.com/Lwamtekie/product-cards",
-    githubUrl: "https://github.com/Lwamtekie/product-cards",
-  },
+  }
+]
 const printToDom = (divId, textToPrint) => {
     const selectedDiv=document.getElementById(divId);
     selectedDiv.innerHTML = textToPrint;
