@@ -11,14 +11,32 @@ body {
     -webkit-text-fill-color: Black;
   }
 
-  img {
-    border-radius: 50%;
-    align-content: left;
+  #bioPage{
+    display: flex;
+  }
+  
+  .biopic {
+    width:200px;
+    border-radius: 100%;
+
+  }
+
+  .biotext{
+    float:right;
+    margin-left: 0px;
+  
   }
   .topnav-right {
     float: right;
     font-size: 20px;
     text-decoration-skip-ink: black;
   
+  }
+  .h1{
+    text-align: center;
+  }
+  .p{
+    float: left;
+    
   }
 
