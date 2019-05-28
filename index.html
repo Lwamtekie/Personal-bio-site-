@@ -1,40 +1,79 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <header id='siteName'><b>personal-website</b></header>
-    <link rel="stylesheet" href="main.css">
-  <!-- TODO: Insert a title for your page -->
+  <header id='siteName'><b>Lwam-Tekie</b></header>
+  <link rel='stylesheet' href="./navBar.css">
+  <link rel="stylesheet" href="../main.css">
+
+ 
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav>
-    <!-- TODO: Insert some sort of H1-H6 with your name here -->
-    <ul id="navLinks">
-      <li><a id="navToBio">Bio</a></li>
-      <li><a id="navToTechnologies">Technologies</a></li>
-      <li><a id="navToProjects">Projects</a></li>
+
+  <div>
+    <!-- Navigation -->
+    <nav>
+      
+      
+      <div class="topnav-left">
+          
+        <a href="navToBio">Bio</a>
+        <a href="navToTechnologies">Technologies</a>
+        <a href="navToProjects">Projects</a>
+      </div>
+      </ul>
+    </nav>
+    <!-- End Navigation -->
+
+
+
+    <!-- Primary View -->
+
+    <div class="fullPage" id="bioPage">
+      <div class="image"><img class="biopic" src="https://avatars2.githubusercontent.com/u/47877959?s=400&u=093d974c55ba9fdca670611a6f1e2600bc859e5b&v=4"
+        alt="Lwam"></div>
+      <div class="bioText">
+        <p>I don't have any background in web developing and coding at all. But I love the challenge of making things. And when I start to learn web developing in  NSS, It was a little bit foreign. But  I like the progress I am making from where I start. And coding is a challenge and fun at the same time.</p>
+    </div>
+  </div>
+
+
+
+
+    <div class="fullPage" id="technologiesPage">
+      <ul id="Technologies">
+        <header>Technologies</header>
+        <li>html</li>
+        <li> main.css</li>
+        <li>J.S</li>
+        <li>json.data(db)</li>
+      </ul>
+    </div>
+    <div class="fullPage" id="projectsPage"></div>
+    <ul id="projects"header>Projects</header>
+      <li>Product-cards</li>
+      <li> Pet-adoption</li>
+      <li>favorite-places</li>
     </ul>
-  </nav>
-  <!-- End Navigation -->
 
-  <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
-    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-  </div>
-  <div class="fullPage" id="technologiesPage">
-    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-  </div>
-  <div class="fullPage" id="projectsPage"></div>
-  <!-- End Primary View -->
 
-  <!-- Footer -->
-  <footer class="page-footer">
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-  </footer>
-  <!-- End Footer -->
-  <script src="main.js"></script>
-</body>
+
+
+    <footer class="page-footer">
+      <ul style="list-style-type:none;">
+        <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+       <header>Contact</header>
+        <li>phone:615-638-3748</li>
+        <li>email:ltekie87@yahoo.com</li>
+        <li>github:https://github.com/Lwamtekie</li>
+      </ul>
+
+    </footer>
+
+    <script src="../main.js"></script>
+  </body>
+
 </html>
