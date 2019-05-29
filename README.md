@@ -12,7 +12,7 @@ Personal-bio-site-1
 
 #screenshot:
  
- ![IMAGE1]()
+ ![IMAGE1](https://raw.githubusercontent.com/Lwamtekie/Personal-bio-site-/master/Screenshot/screencapture-127-0-0-1-8080-2019-05-28-18_33_55.png)
  
 #How To Run Clone this repository: 
 git clone https://github.com/Lwamtekie/Personal-bio-site-
