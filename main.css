@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
 }
 #siteName{
-    font-size: 100px;
+    font-size: 75px;
     text-align: center;
     font-style: italic;
     -webkit-text-fill-color: Black;
@@ -13,23 +13,27 @@ body {
 
   #bioPage{
     display: flex;
+
   }
   
   .biopic {
-    width:200px;
+    width:400px;
     border-radius: 100%;
-
-  }
+    margin-top: 5rem
+}
 
   .biotext{
     float:right;
     margin-left: 0px;
+    margin-left: 0rem;
+    margin-top: 10rem;
+    font-size: 1.5rem;
   
   }
-  .topnav-right {
-    float: right;
-    font-size: 20px;
-    text-decoration-skip-ink: black;
+  .topnav-left {
+    float: center;
+    font-size: 25px;
+    color:black;
   
   }
   .h1{
@@ -37,6 +41,22 @@ body {
   }
   .p{
     float: left;
+    margin-top: 8rem;
     
   }
 
+  .ul{
+    font-size:2rem;
+  }
+
+  .page-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:black;
+    text-align: center;
+    float:bottom;
+  
+}
+  
